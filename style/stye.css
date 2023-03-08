@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Grande',Verdana,'Bitstream Vera Sans',Arial,sans-serif;
+    font-size: 11px;
+}
+
+
+.header-top {
+    padding: 30px;
+    display: flex;
+    list-style: none;
+}
+.header-top1 {
+flex: 4;
+}
+.header-top2{
+    flex: 3;
+}
+.menu{
+    background-color: rgb(180, 78, 78);
+ 
+    padding: 0 16px;
+    
+}
+.buttonheader{
+    position: relative;
+    top:28px;
+}
+.footer{
+    background-color: #333;
+}
+.copyright>li{
+    list-style: none; 
+    text-decoration: none; 
+    width: auto;
+}
