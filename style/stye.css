@@ -36,3 +36,6 @@ flex: 4;
     text-decoration: none; 
     width: auto;
 }
+.boxicon>li{
+    padding: 30px;
+}
