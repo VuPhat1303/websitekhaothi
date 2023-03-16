@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/stye.css">
+    
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -16,40 +17,42 @@
 
         <div class="container ">
             <div class="row">
-                <div class="col-md-3 ">
-                    <img style="height: 100px; width: 400px;" src="image/_wiwn8912WI_logo-vhubnew.png" alt="">
-                </div>
-                <div class="col-md-3 ">
-
-                </div>
-                <div class="col-md-3 ">
+                <div class="col-lg-3 col-md-12 text-center"> <img style=" margin-top: 16px; height: 80px; width: 350px;" src="image/_wiwn8912WI_logo-vhubnew.png" alt=""></div>
+                <div class="col-lg-6 col-md-12 text-center"></div>
+                <div class="col-lg-3 col-md-12 text-center"> 
                     <div class="header-top">
 
-                        <div class="header-top1">
-                            <li> <a style=" color: white; text-decoration: none" href=""> <span class="icon-home icons"></span>
-                                    Trang
-                                    chủ
-                                    VLU </a>
-                            </li>
-                        </div>
-                        <div class="header-top2">
-                            <li style=" color: white; text-decoration: none" color: white;> <span class="icon-globe icons"></span>
-                                Ngôn
-                                ngữ:
-                                <select>
-                                    <option value="volvo">VN</option>
-                                    <option value="saab">EN</option>
-                                </select>
-                            </li>
-                        </div>
-
-
-
+                    <div class="header-top1">
+                        <li>
+                            <i style="color: white; font-size: 20px; " class='bx bx-home'></i> 
+                            <a style=" color: white; text-decoration: none" href=""> <span class="icon-home icons"></span>
+                                Trang
+                                chủ
+                                VLU </a>
+                        </li>
                     </div>
+                    <div class="header-top2">
+                        
+                        <li style=" color: white; text-decoration: none" color: white;> 
+                            <i style="color: white; font-size: 20px; " class='bx bx-world'></i>
+                            <span class="icon-globe icons"></span>
+                            Ngôn ngữ:
+                            <select>
+                                <option value="volvo">VN</option>
+                                <option value="saab">EN</option>
+                            </select>
+                        </li>
+                    </div>
+                     <div class="buttonheader ">
+                        
+                            <i style="color: white; font-size: 20px;" class='bx bx-log-in'></i>
+
+                            <span class="icon-globe icons"></span>
+                            <button  style="background-color: rgb(180, 78, 78); border: none; height: 25px; width: 80px; " type="button " class="btn btn-secondary btn-sm">ĐĂNG NHẬP</button>
+                        
+                    </div>  
                 </div>
-                <div class="col-md-3 buttonheader ">
-                    <button type="button " class="btn btn-secondary btn-sm">ĐĂNG NHẬP</button>
-                </div>
+                
 
 
             </div>
@@ -57,19 +60,23 @@
 
     </section>
     <section class="menu">
-        <div class="container bg-danger">
+        <div class="container-fluid bg-danger">
             <div class="row">
                 <div class="menu">
 
                     <nav class="navbar navbar-expand-lg bg-body-tertiary">
                         <div class="container-fluid">
-                            <a class="navbar-brand d-none" href="#">Navbar</a>
+                            <a class="navbar-brand d-none  "  href="#"></a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="s">
+                                <i style="color:aliceblue; font-size: 25px; " class='bx bx-menu buttonmenu '></i>
                             </button>
+                            <div class="seach-menu" role="search">
+                                <a href="#"><i style=" margin: 3px 5px; font-size: 20px; color: aliceblue; " class='bx bx-search'></i></a>
+                                
+                            </div>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <ul class=" list-nav navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
                                         <a class="nav-link active text-white" aria-current="page" href="#">GIỚI THIỆU</a>
                                     </li>
@@ -91,26 +98,33 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                        <a class="nav-link  text-white" href="#" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             THI ĐÁNH GIÁ NĂNG LỰC
                                         </a>
 
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">TẬP HUẤN</a>
+                                        
+                                        
+                                        
 
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link text-white" href="#">TIN TỨC</a>
+                                        <a class="nav-link text-white " href="#">TẬP HUẤN</a>
+                                        
+                                            
+                                        
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">TRA CỨU</a>
 
                                     </li>
                                 </ul>
-                                <form class="d-flex" role="search">
-                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                    <button style="border-color: black" class="btn btn-outline-success text-white "
-                                        type="submit">Search</button>
-                                </form>
+                                <div class="menu-seach" role="search">
+                                  
+                                   <a href=""><i  style=" margin: 3px 5px; font-size: 20px; color: aliceblue; " class= 'bx bx-search '></i></a> 
+                                </div>
+
+
                             </div>
                         </div>
                     </nav>
@@ -166,89 +180,56 @@
     <section class="footer bg-dark text-white py-4">
 
         <div class="container">
-            <div class="row">
-                <div class="col-7">
-
-                    <img height="80px;" src="image/_wiwn8912WI_logo-vhubnew.png" class="lg-ft">
+            <div class="inner">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 text-center">
+                        <img style="width: 350px; height: 80px; " src="image/_wiwn8912WI_logo-vhubnew.png" class="lg-ft">
                     <p>
                         <strong><i class="fa fa-home" aria-hidden="true"></i> Trường Đại học Văn Lang</strong>
-                    </p>
-
-                    <p><strong>Cơ sở chính:</strong> 69/68 Đặng Thùy Trâm, P. 13, Q. Bình Thạnh, TP. HCM</p>
-
-                    <p><strong>Cơ sở 1</strong>: 45 Nguyễn Khắc Nhu, P. Cô Giang, Q.1, TP. HCM</p>
-
-                    <p><strong>Cơ sở 2</strong>: 233A Phan Văn Trị, P.11, Q. Bình Thạnh, TP. HCM</p>
-
-                    <p><strong>Ký túc xá</strong>: 160/63A-B Phan Huy Ích, P. 12, Q. Gò Vấp, TP. HCM</p>
-
-                    <strong>Điện thoại: 028.71099221- EXT: 3320</strong>
+                        </p><hr>
+                        <p><strong>Cơ sở chính:</strong> 69/68 Đặng Thùy Trâm, P. 13, Q. Bình Thạnh, TP. HCM</p>
+                        <p><strong>Cơ sở 1</strong>: 45 Nguyễn Khắc Nhu, P. Cô Giang, Q.1, TP. HCM</p>
+                        <p><strong>Cơ sở 2</strong>: 233A Phan Văn Trị, P.11, Q. Bình Thạnh, TP. HCM</p>
+                        <p><strong>Ký túc xá</strong>: 160/63A-B Phan Huy Ích, P. 12, Q. Gò Vấp, TP. HCM</p>
+                        <strong>Điện thoại: 028.71099221- EXT: 3320</strong>
                     <p></p>
-
                 </div>
-                <div class="col-5">
+                <div class="text-center col-lg-6 col-md-12">
                     <div class="container">
                         <div>
-                            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.789413768963!2d106.69792441513167!3d10.827421492286998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528f4a62fce9b%3A0xc99902aa1e26ef02!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBWxINuIExhbmc!5e0!3m2!1svi!2s!4v1670586561289!5m2!1svi!2s"
-                                frameborder="0" allowfullscreen=""></iframe>
+                            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.789413768963!2d106.69792441513167!3d10.827421492286998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528f4a62fce9b%3A0xc99902aa1e26ef02!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBWxINuIExhbmc!5e0!3m2!1svi!2s!4v1670586561289!5m2!1svi!2s" frameborder="0" allowfullscreen=""></iframe>
                         </div>
                     </div>
                 </div>
-            </div>
-            <hr>
-            <div class="row">
-                <div class="col-3"></div>
-                <div class="col-2" style="width: auto">
-                    <div class="copyright ">
-                        © 2023 - Bản Quyền Thuộc Trường Đại học Văn Lang
-
-                    </div>
                 </div>
-                <div class="col-2">
-
-                </div>
-                <div class="col-1">
-                    <li style="list-style: none; text-decoration: none;  ">
-                        <a href="#" style="font-size: 25px;" class='bx bxl-youtube'></a>
-                    </li>
-                </div>
-
-                <div class="col-1">
-                    <li style=" list-style: none; text-decoration: none; color: rgb(128, 124, 124) ">
-                        <a href="#" style="font-size: 25px;" class='bx bxl-facebook-square'></a>
-                    </li>
-                </div>
-                <div class="col-1">
-                    <ul class="icons" style="margin: 0">
-
-
+                <hr>
+                <div class="copyright">
+                    © 2023 - Bản Quyền Thuộc Trường Đại học Văn Lang
+                    <!-- <ul class="icons" style="margin: 0">
+                        <li style="list-style: none; text-decoration: none;  ">
+                            <a href="#" style="font-size: 25px;" class='bx bxl-youtube'></a>
+                        </li>
+                        <li style=" list-style: none; text-decoration: none; color: rgb(128, 124, 124) ">
+                            <a href="#" style="font-size: 25px;" class='bx bxl-facebook-square'></a>
+                        </li>
                         <li style="list-style: none; text-decoration: none; ">
 
                             <a href="#" style="font-size: 25px;" class='bx bxs-graduation'></a>
                         </li>
-                    </ul>
+                    </ul> -->
+                    <hr>
+                    <a style="text-decoration: none; color: aliceblue; " href="#">Chính sách quyền riêng tư</a>
                 </div>
-                <div class="col-1"></div>
-
-
             </div>
-            <hr>
-
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-4 text-white"><a>Chính sách quyền riêng tư</a></div>
-                    <div class="col-4"></div>
-                </div>
-
-            </div>
+        </div>
+               
 
 
 
 
     </section>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.js">
 </body>
 
 </html>

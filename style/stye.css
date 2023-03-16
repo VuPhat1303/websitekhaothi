@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Grande',Verdana,'Bitstream Vera Sans',Arial,sans-serif;
+    font-family: 'Lucida Grande', Verdana, 'Bitstream Vera Sans', Arial, sans-serif;
     font-size: 11px;
 }
 
@@ -12,30 +12,80 @@
     display: flex;
     list-style: none;
 }
+
 .header-top1 {
-flex: 4;
+    flex: 4;
 }
-.header-top2{
+
+.header-top2 {
     flex: 3;
 }
-.menu{
+
+.buttonheader {
+    flex: 4;
+}
+
+.menu {
     background-color: rgb(180, 78, 78);
- 
+
     padding: 0 16px;
-    
+
 }
-.buttonheader{
-    position: relative;
-    top:28px;
-}
-.footer{
+
+
+
+.footer {
     background-color: #333;
 }
-.copyright>li{
-    list-style: none; 
-    text-decoration: none; 
+
+.copyright>li {
+    list-style: none;
+    text-decoration: none;
     width: auto;
 }
-.boxicon>li{
+
+.boxicon>li {
     padding: 30px;
+}
+
+.copyright {
+
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+}
+
+ul.icons {
+
+    padding-left: 610px;
+}
+
+navbar-toggler :focus {
+    box-shadow: none;
+}
+
+@media screen and (min-width:993px) {
+    .seach-menu {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .menu-seach {
+        display: none;
+    }
+}
+
+.list-nav>li:hover {
+    background-color: #333;
+
+
+}
+
+.list-nav li {
+    transition: background-color 0.3s linear, color 0.2s linear;
+    border-radius: 2px;
 }
